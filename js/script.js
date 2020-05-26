@@ -66,6 +66,7 @@ for (let i = 0; i < 2; i++) {
 
     if (a == null || a == '' || b == null || b == '' || a.length > 50) {
         i--;
+        continue;
     }
     personalMovieDB.movies[a] = b;
 }
