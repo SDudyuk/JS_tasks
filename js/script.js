@@ -19,11 +19,11 @@
         'logan': '8.1'
     }
 
-Проверить, чтобы все работало без ошибок в консоли */
+*/
 
  'use strict';
 
- const numberOfFilms = +prompt("Скільки фільмів Ви переглянули?", "0");
+const numberOfFilms = +prompt("Скільки фільмів Ви переглянули?", "0");
 
 const personalMovieDB = {
   count: numberOfFilms,
